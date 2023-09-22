@@ -6,8 +6,9 @@ const app = express();
 
 const PORT = 5000;
 
-// Express config
-app.use(express.static(path.resolve(__dirname, 'public')));
+// Express config (path подаваме релативен път и го получаваме в абсолютен)
+// app.use(express.static(path.resolve(__dirname, 'public')));
+app.use(express.static('src/public'));
 
 // Handlebars config
 app.engine('hbs', handlebars.engine({
