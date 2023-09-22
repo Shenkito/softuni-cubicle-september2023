@@ -1,0 +1,26 @@
+{
+  "name": "softuni-cubicle-september2023",
+  "version": "1.0.0",
+  "description": "SoftUni JS Web Course Project Workshop",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shenkito/softuni-cubicle-september2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shenkito/softuni-cubicle-september2023/issues"
+  },
+  "homepage": "https://github.com/Shenkito/softuni-cubicle-september2023#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
