@@ -1,0 +1,11 @@
+const mongoose = require('mongoose');
+
+// 'mongodb://127.0.0.1:27012' Стандарт by default
+const uri = 'mongodb://127.0.0.1:27017/cubicle-september-2023'
+
+async function dbConnect() {
+    await mongoose.connect(uri);
+}
+
+
+module.exports = dbConnect;
