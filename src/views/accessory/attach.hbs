@@ -7,9 +7,9 @@
         <form method="POST">
             <label for="accessory">Accessories</label>
             <select id="accessory" name="accessory" />
-                {{#each accessories}}
-                    <option value="{{_id}}">{{name}}</option>
-                {{/each}}
+            {{#each accessories}}
+            <option value="{{_id}}">{{name}}</option>
+            {{/each}}
             </select>
             <input type="submit" value="Attach">
         </form>
