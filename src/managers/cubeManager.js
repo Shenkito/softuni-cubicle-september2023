@@ -30,6 +30,8 @@ exports.create = (cubeData) => {
 
 };
 
+exports.delete = (cubeId) => Cube.findByIdAndDelete(cubeId);
+
 exports.attachAccessory = async (cubeId, accessoryId) => {
     
     const cube = await Cube.findById(cubeId);
